@@ -31,7 +31,7 @@ Fully deterministic: no clock, no randomness, no I/O — only the batches the ha
 | Fees | 0.028 SOL curve + 0.015 SOL tx; at 2× fees net −0.034 SOL |
 | Determinism | two executions reproduced byte for byte |
 
-For comparison on the same window, the kit's shipped pilots all lose money: sniper −0.49 SOL, momentum −2.36 SOL, reversion −3.78 SOL. The edge is narrow and concentrated — the top 3 coins made 83% of the gains, and without them the net is −0.03 SOL — so this is a steady-scalp ticket on catching a runner in the final window, not a money machine. Three of the dev window's four 6-hour slices lose money for this bot; the shipped settings sit in the flat, near-breakeven region, not at a sharp optimum.
+For comparison on the same window, the kit's shipped pilots all lose money: sniper −0.49 SOL, momentum −2.36 SOL, reversion −3.78 SOL. The edge is narrow and concentrated — the top 3 coins made 83% of the gains, and without them the net is −0.03 SOL — so this is a steady-scalp ticket on catching a runner in the final window, not a money machine. Three of the dev window's four 6-hour slices lose money for this bot; the shipped settings sit in the flat, near-breakeven region, not at a sharp optimum. Stress test (20 rebuilt copies of the dev window): median −0.02 SOL, p10 −0.06, p90 +0.02 SOL; 16 of 20 copies lost money, and the dev score sits above 16 of 20 — the kit's warning applies (half or more copies lost money), so the dev score leans on this window's own coins and is not a forecast of the final window.
 
 ## Run
 
